@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+  background-color: #eee;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #333;
+}
+
+/* Main Content Styles */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.list-group-item {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+.card {
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.card-img-top {
+  max-width: 100%;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #222;
+  cursor: pointer;
+}
